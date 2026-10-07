@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiago Samuel - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="theme-toggle" class="theme-btn" aria-label="Alternar tema">
+        ☾☼
+       </button>
+    <div class="portfolio-container">
+        <div class="left-column">
+            <section class="hero-box">
+                <p class="greeting">Olá! Eu me chamo</p>
+                <h1 class="main-title">HIAGO<br>SAMUEL</h1>
+                
+                <p class="lead-text"><span id="typing-text"></span></p>
+            </section>
+
+            <div class="highlight-card js-scroll">
+                <p>
+                    Sou um estudante do 2º ano do Ensino Médio no Colégio Cotemig, apaixonado por transformar ideias em experiências visuais. Tenho grande interesse na área de Web Design e na criação de slides de alto impacto.
+                </p>
+            </div>
+
+            <section class="contact-box js-scroll" id="contato">
+                <h2>Vamos conversar?</h2>
+                <h3>Tem algum projeto, ideia ou oportunidade? Entre em contato preenchendo o formulário abaixo:</h3>
+                
+                <form id="portfolio-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo *</label>
+                        <input type="text" id="nome" required placeholder="Digite seu nome">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefone">Telefone / WhatsApp *</label>
+                        
+                        <input type="text" id="telefone" maxlength="15" required placeholder="(00) 00000-0000">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail *</label>
+                        <input type="email" id="email" required placeholder="seuemail@provedor.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem *</label>
+                        <textarea id="mensagem" rows="4" required placeholder="Como posso te ajudar?"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-submit">Enviar Mensagem</button>
+                </form>
+            </section>
+        </div>
+
+        <div class="right-column">
+
+            <section class="info-section js-scroll">
+                <h2 class="section-title">// Sobre Mim</h2>
+                <p>
+                    Atualmente curso o Ensino Médio no Colégio Cotemig, onde venho expandindo meus conhecimentos em tecnologia, lógica e design. Embora esteja no início da minha jornada profissional, dedico meu tempo a estudar e praticar o Web Design — criando interfaces limpas e funcionais — e o desenvolvimento de apresentações visuais e slides profissionais que comunicam ideias com clareza. Acredito que a combinação entre criatividade e a vontade constante de aprender é a chave para construir soluções digitais eficientes e agradáveis para o usuário.
+                </p>
+            </section>
+
+            <section class="info-section js-scroll">
+                <h2 class="section-title">// Minhas Habilidades</h2>
+                
+                <div class="skills-group">
+                    <h4>Hard Skills (Técnicas):</h4>
+                    <ul class="skills-list">
+                        <li>Desenvolvimento Web: HTML, CSS, JavaScript e boas práticas de código.</li>
+                        <li>Tecnologia & IA: Criação e prototipagem de sites assistida por Inteligência Artificial.</li>
+                        <li>Web Design & UI/UX: Noções de design de interfaces e experiência do usuário.</li>
+                    </ul>
+                </div>
+
+                <div class="skills-group">
+                    <h4>Soft Skills (Comportamentais):</h4>
+                    <ul class="skills-list">
+                        <li>Disposição para Aprender: Curiosidade activa e facilidade para absorver novas tecnologias.</li>
+                        <li>Criatividade: Busca por soluções visuais e funcionais originais.</li>
+                        <li>Trabalho em Equipe: Capacidade de colaborar em projetos escolares e em grupo.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="info-section js-scroll">
+                <h2 class="section-title">// Projetos Executados</h2>
+                
+                <div class="project-item">
+                    <h4>• Projeto 1: [Loja Sport Life / Landing Page]</h4>
+                    <ul class="project-details">
+                        <li><strong>Descrição:</strong> Página web desenvolvida utilizando HTML, CSS aplicando conceitos modernos de design e interatividade.</li>
+                        <li><strong>Tecnologias:</strong> HTML, CSS</li>
+                        <li><a href="https://hiago-samuel.github.io/landing-page-HIAGO-SAMUEL-2D2/" target="_blank" class="github-link">[ Link Para Ver Repositório no GitHub ]</a></li>
+                    </ul>
+                </div>
+                <div class="project-item">
+                    <h4>• Projeto 2: E-commerce de Moda / Wear Store</h4>
+                    <ul class="project-details">
+                        <li><strong>Descrição:</strong> Desenvolvimento de um site de roupas fictício com foco em design esportivo, minimalista e de alta performance visual.</li>
+                        <li><strong>Tecnologias:</strong> HTML, CSS, JS</li>
+                        <li><a href="https://hiago-samuel.github.io/E-commerce--HIAGO-SAMUEL-2D2-FRONT/" target="_blank" class="github-link">[ Link Ver Repositório no GitHub ]</a></li>
+                    </ul>
+                </div>
+            </section> 
+
+        </div>
+    </div>
+
+    <footer class="portfolio-footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Hiago Samuel. Todos os direitos reservados. Colégio Cotemig.</p>
+            <p>Contato: <a href="mailto:meu.email@provedor.com">hiagosamuca8@gmail.com</a> | <a href="https://github.com/hiago-samuel" target="_blank">GitHub Oficial</a></p>
+        </div>
+    </footer>
+
+    <div id="custom-modal" class="modal-overlay">
+        <div class="modal-card">
+            <h3>Mensagem Enviada!</h3>
+            <p>Obrigado pelo contato</p>
+            <button id="close-modal-btn" class="modal-close-btn">Fechar</button>
+        </div>
+    </div>
+    
+    <script src="java.js"></script>
+</body>
+</html>
